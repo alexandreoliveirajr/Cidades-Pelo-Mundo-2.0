@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0%;
+    font-family: 'PT Serif';
+}
+
+header {
+    background-image: linear-gradient(to right,#000814, #001D3D);
+    padding: 2%;
+}
+
+#titulo-site a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Menu */
+
+#menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #001D3D;
+}
+  
+.item-menu {
+    float: left;
+}
+  
+  .item-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .item-menu a:hover {
+    background-color: #027c50;
+  }
+
+/* Fim Menu */
+
+/* Main */
+
+main {
+    padding: 2%;
+    text-align: center
+}
+
+.titulo-pag, #slogan-pag {
+    text-align: center;
+}
+
+.div-conteudo {
+   display: inline-block;
+   padding: 1%;
+}
+
+.div-conteudo img{
+   width: 500px;
+   height: 350px;
+}
+
+.div-conteudo a {
+   text-decoration: none;
+   color: #00050c;
+   text-align: center;
+}
+
+
+/* Fim Main */
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #00050c;
+    color: #fff;
+}

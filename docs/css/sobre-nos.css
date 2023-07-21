@@ -1,0 +1,43 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.developer-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 5px;
+    color: #007bff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#redes {
+    margin: 5px;
+}
+
+.item-rede a {
+    text-decoration: none;
+    color: #000;
+}
+
+.item-rede:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
